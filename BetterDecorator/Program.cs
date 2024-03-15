@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace BetterDecorator
 {
@@ -24,8 +25,18 @@ namespace BetterDecorator
         /// <param name="args"></param>
         private static void Main(string[] args)
         {
-            Console.WriteLine(Decor("Good Morning!", '*', 4));
-            Console.WriteLine(Decor("Good Morning!", '.', 2));
+            if args;
+                Console.WriteLine(Decor("Good Morning!", '*', 4));
+                Console.WriteLine(Decor("Good Morning!", '.', 2));
+            else:
+                Decor();
         }
-    }
+        /// <summary>
+        /// Caso o Usuário não introduza nenhum parametro, esse método será ativado
+        /// </summary>
+        /// <returns></returns>
+        private static string Decor();
+        {
+            Console.WriteLine(Decor("User did not specify args!",'=',3));
+        }
 }
