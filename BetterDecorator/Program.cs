@@ -2,6 +2,9 @@
 
 namespace BetterDecorator
 {
+    /// <summary>
+    /// Guarda todo o corpo do código
+    /// </summary>
     class Program
     {
         /// <summary>
@@ -11,9 +14,9 @@ namespace BetterDecorator
         /// <param name="dec"></param>
         /// <param name="n"></param>
         /// <returns></returns>
-        private static string Decor(string s, char dec, int n)
+        private static string Decor(string s, char dec, int count)
         {
-            return $"{"dec"*n} {s} {"dec"*n}";
+            return $"{"dec"*count} {s} {"dec"*count}";
         }
         /// <summary>
         /// Entrega os parametros necessários para o Decor funcionar
